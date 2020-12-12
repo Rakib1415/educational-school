@@ -1,0 +1,47 @@
+.load-btn{
+    background: #FF9F67;
+    font-family: "Josefin Sans",sans-serif;
+    text-transform: capitalize;
+    padding: 25px 38px;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    line-height: 1;
+    letter-spacing: 1px;
+    line-height: 0;
+    margin-bottom: 0;
+    transition: color 0.4s linear;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    overflow: hidden;
+    margin: 0;
+}
+.load-btn:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:  #AE59FF;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 5px;
+    transition: transform 0.5s;
+    transition-timing-function: ease;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    transform: scaleX(0);
+    border-radius: 0px;
+}
+.load-btn:hover::before{
+    transform: scaleX(1);
+    color: #fff;
+    /* z-index: -1; */
+}
+a.load-btn:hover{
+    color: #fff;
+}

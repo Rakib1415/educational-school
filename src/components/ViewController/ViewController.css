@@ -1,0 +1,12 @@
+.icon{
+    padding: 3px 7px;
+    margin: 0 7px;
+    cursor: pointer;
+    
+}
+.icon:hover{
+    outline: #222 solid 1px;
+}
+.icon:focus{
+    outline: #222 solid 1px;
+}

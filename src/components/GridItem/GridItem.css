@@ -1,0 +1,50 @@
+
+.card-area{
+    width: 235px;
+    cursor: pointer;
+    transition: 3s;
+}
+.card-area:hover .custom-btn{
+    left: 0;
+    bottom: 5%;
+}
+.card-inner-area{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.card-inner-area .img-link img{
+    width: 100%;
+}
+.custom-btn {
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    background-color: #102040;
+    width: 100%;
+    height: 40px;
+    left: 0;
+    bottom: -100%;
+    line-height: 40px;
+    padding: 0;
+    color: #ffff;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 1s ease;
+}
+.custom-btn:hover{
+    background-color: #fe9c37;
+    color: #ffff;
+}
+.title{
+    color: black;
+    /* text-align: justify; */
+    transition: all 1s ease;
+}
+.title:hover{
+    color:  #fe9c37;
+}
+.price{
+    text-align: justify;
+    font-size: 16px;
+}

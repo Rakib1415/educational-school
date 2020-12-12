@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+a:hover {
+    text-decoration: none;
+}
+
+dl, ol, ul, a {
+    margin-bottom: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.header{
+    /* background-color: tomato; */
+}

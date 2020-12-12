@@ -1,0 +1,37 @@
+.count-area{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    background-image: url('../assets/bgImage.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    z-index: 1;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #C66AE2;
+    z-index: -1;
+    opacity: .8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.countUp .icon{
+    width: 70px;
+    height: 70px;
+}
+span.flat-icon{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.countUp .text{
+    color: #fff;
+}
